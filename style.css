@@ -7,7 +7,7 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 .nav-bg{
-  background: rgba(4, 43, 116, 0.6);
+  background: #1B263B;
 }
 .navbar-nav .nav-link{
   color:#fff!important;
@@ -29,7 +29,7 @@ body{
   top:0;
   width:130%;
   height:95%;
-  background:linear-gradient(to right,rgba(45, 84, 214, 0.6),rgba(20,54,1,0.4)),url("assest/mainbg.webp")center top no-repeat;/*image-size 1920H 1080W*/
+  background:linear-gradient(to right,rgba(27, 38, 59, 1),rgba(20,54,1,0.4)),url("assest/mainbg.webp")center top no-repeat;/*image-size 1920H 1080W*/
   z-index:0;
   border-radius: 0 0 50% 50%;
   transform:translateX(-50%) rotate(0deg);
@@ -94,10 +94,10 @@ body{
   margin:10px;
   color:#fff;
   animation-delay:0.5s;
-  border:2px solid #9ef596;
+  border:2px solid #175c8d;
 }
 #hero .hero-btn:hover{
-  background:#0a6801;
+  background:#4F93C5;
   color:#fff;
   text-decoration:none;
 }
@@ -167,8 +167,8 @@ body{
 }
 .tabs .nav-pills .nav-item .nav-link.active{
   color:#fff;
-  background:#053001;
-  border:1px solid #9ef596;
+  background:#1B263B;
+  border:1px solid #4F93C5;
 }
 .tabs .nav-pills .nav-item .nav-link.active span{
   color:#fff;
@@ -193,9 +193,10 @@ body{
 /*========Stories========*/
 .story-box{
   padding:15px;
-  background:#c6f8bc;
+  background:#4F93C5;
   margin-bottom:30px;
   position:relative;
+  border-radius: 10px;
 }
 .story-icon{
   width:90px;
@@ -235,7 +236,7 @@ body{
   content:'';
   width:50%;
   height: 100%;
-  background: #053001;
+  background: #1B263B;
   position: absolute;
   top:0;
   left:0;
@@ -243,19 +244,19 @@ body{
   
 }
 .overlay:hover:before{
-  background:#053001;
+  background:#1B263B;
   width:100%;
   border-radius:10px;
 }
 /*========End of the Stories========*/
 /*============Projects Section=======*/
 .project-container{
-  background: #136d01;
+  background: #1B263B;
   position: relative;
   overflow: hidden;
 }
 .donation{
-  background:#7ff767;
+  background:#4F93C5;
   color:black;
   padding:3px 3.5px;
   position: absolute;
@@ -280,7 +281,7 @@ body{
 .outline:before{
   content:'';
   position:absolute;
-  border: #7ff677 solid 4px;
+  border: #4F93C5 solid 4px;
   top:4px;
   left: 4px;
   right:4px;
@@ -299,14 +300,14 @@ body{
   display: inline-block;
   vertical-align: middle;
   transform: perspective(1px) translateZ(0);
-  box-shadow:0 0 10px #7ff767;
+  box-shadow:0 0 10px #4F93C5;
   transition-duration:0.3s;
   transition-property: box-shadow, transform;
 }
 .grow:hover,
 .grow:focus,
 .grow:active{
-  box-shadow: 0 10px 10px 5px #7ff767;
+  box-shadow: 0 10px 10px 5px #4F93C5;
   transform: scale(1.1);
 }
 /*====end of Projects Section======*/
@@ -335,8 +336,8 @@ body{
   bottom:-48px;
   left:20px;
   right:20px;
-  background: linear-gradient(360deg,#b3f19b 0%,rgba(187,240,152,0.9)35%,
-  rgba(0,59,37,0.8)100%);
+  background: linear-gradient(360deg,#5fb4f1 0%,#4F93C5 35%,
+  #1B263B 100%);
   padding: 15px 0;
   border-radius: 4px;
 }
@@ -521,7 +522,7 @@ body{
 }
 /*==========End of the Donation Section======*/
 .footer{
-  background:linear-gradient(rgba(162,247,106,0.6),rgba(0,59,37,0.4));
+  background:linear-gradient(#4F93C5,#1B263B);
   padding: 0 0 30px 0;
   color: #000;
   font-size: 15px;
@@ -532,7 +533,7 @@ body{
 .footer .footer-top .footer-des{
   margin-top: -90px;
   margin-bottom: 15px;
-  background:#053001;
+  background:#1B263B;
   color:#fff;
   border-top: 4px solid #b3f19b;
   text-align: center;
@@ -553,8 +554,8 @@ body{
 .footer .footer-top .social-links a{
   font-size: 18px;
   display: inline-block;
-  background: #b3f19b;
-  color:#053001;
+  background: #2b5d81;
+  color:#1B263B;
   line-height:1;
   padding:8px 0;
   margin-right: 4px;
@@ -565,7 +566,7 @@ body{
   transition: 0.3s;
 }
 .footer .footer-top .social-links a:hover{
-  background: #053001;
+  background: #4F93C5;
   color: #fff;
   text-decoration: none;
 }
@@ -605,7 +606,7 @@ body{
   line-height: 1;
 }
 .footer .footer-top .footer-links ul a:hover{
-  color: #053001;
+  color: #4F93C5;
 }
 .footer .footer-top .footer-newsletter form{
   margin-top:30px;
@@ -628,12 +629,12 @@ body{
   background: none;
   font-size:16px;
   padding: 0 20px;
-  background: #053001;
+  background: #1B263B;
   color:#fff;
   transition: 0.3s;
   border-radius:4;
 }
 .footer .footer-top .footer-newsletter form input[type="submit"]:hover{
-  background: #b3f19b;
-  color:#053001;
+  background: #4F93C5;
+  color:#1B263B;
 }
