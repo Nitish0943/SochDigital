@@ -443,83 +443,76 @@ body{
 }
 /*==========End of the Finished projects======*/
 /*========== Donation Section======*/
-.donation-form .input-field .input-group{
-  width: 100%;
-  border:1px solid #053001;
-  border-radius: 7px;
-  padding: 5px 10px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
-}
-.donation-form .input-field .input-group .input-group-text{
-  font-size: 16px;
-  background: transparent;
-  border:0;
-  font-weight: bold;
-}
-.donation-form .input-field .input-group .form-control{
-  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-  border-bottom: 0;
-  border-top:0;
-  border-radius: 0;
-  border-right: 0;
-  padding: 0 0 0 25px;
-  height: 50px;
-  font-size: 16px;
-  color:#000;
-}
-.donation-form .input-field .input-group .form-control:placeholder{
-  font-size: 16px;
-  color: #7a7b7c;
-  font-weight: 400;
-}
-.donation-form .input-field .input-group .form-control:focus{
-  outline: none;
-  box-shadow:none;
-}
-.donation-form .amount .need{
-  box-shadow: 0  3px 6px rgba(0,0,0,0.16);
-  padding: 18px 27px;
-  border-radius: 7px;
-  border: 1px solid #3cc78f;
-  display: block;
-  overflow: hidden;
-}
-@media (max-width: 767px){
-  .donation-form .amount .need{
-      display: block !important;
-      margin-top: 15px;
-  }
-}
-.donation-form .amount .need .select h5{
-  font-size: 16px;
-  color: #7a7b7c;
-  margin-bottom: 0;
-}
-.donation-form .amount .need .fund label{
-  font-size: 16px;
-  font-weight: 400;
-  color:#7a7b7c;
-  margin-bottom: 0;
+/* General Styling for Donate Section */
+.donate-section {
+  background-color: #f9f9f9; /* Light grey background */
+  padding: 50px 20px; /* Top/bottom and side padding */
+  text-align: center; /* Center-align the text */
+  border-top: 5px solid #007bff; /* Add a blue border at the top */
+  border-radius: 10px; /* Rounded edges for the section */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-@media(max-width: 767px){
-  .donation-form .amount .need .fund{
-      width: 33.33%;
-      float:left;
-      margin-top: 15px;
+/* Headline Styling */
+.donate-section h2 {
+  font-size: 2.5rem; /* Large font size */
+  color: #333; /* Dark grey color for text */
+  margin-bottom: 20px; /* Spacing below the headline */
+  font-weight: bold;
+}
+
+/* Description Paragraph Styling */
+.donate-section p {
+  font-size: 1.2rem; /* Medium font size */
+  color: #555; /* Medium grey for secondary text */
+  margin-bottom: 30px; /* Spacing below each paragraph */
+  line-height: 1.6; /* Comfortable text spacing */
+}
+
+/* Donate Button Styling */
+.donate-button {
+  background-color: #007bff; /* Blue button */
+  color: #fff; /* White text */
+  padding: 15px 30px; /* Button padding */
+  font-size: 1.2rem; /* Larger button text */
+  border: none; /* No border */
+  border-radius: 50px; /* Rounded button */
+  cursor: pointer; /* Pointer on hover */
+  transition: all 0.3s ease-in-out; /* Smooth hover animation */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Button Hover Effect */
+.donate-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-3px); /* Slight upward movement */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Secure Payment Text */
+.secure-payment {
+  font-size: 1rem;
+  color: #777; /* Light grey text */
+  margin-top: 20px; /* Spacing above this text */
+  font-style: italic; /* Italicized text */
+}
+
+/* Responsive Design for Smaller Screens */
+@media (max-width: 768px) {
+  .donate-section h2 {
+      font-size: 2rem; /* Slightly smaller headline for mobile */
+  }
+
+  .donate-section p {
+      font-size: 1rem; /* Adjust paragraph text size */
+  }
+
+  .donate-button {
+      font-size: 1rem; /* Smaller button text */
+      padding: 12px 25px; /* Adjust button padding */
   }
 }
-.donation-btn{
-  margin-top: 50px;
-}
-.btn-don{
-  background: #053001;
-  color: #fff;
-  border-radius: 50px;
-}
-.btn-don:hover{
-  color: #9ef596;
-}
+
 /*==========End of the Donation Section======*/
 .footer{
   background:linear-gradient(#4F93C5,#1B263B);

@@ -15,8 +15,8 @@ function scrollToSection(sectionId) {
     }
 
     // UPI details
-    const upiId = "7461914267@slice"; // Replace with your UPI ID
-    const payeeName = "Rohan Kumar";   // Replace with your name
+    const upiId = "7029954644@ybl"; // Replace with your UPI ID
+    const payeeName = "Nitish Pathak";   // Replace with your name
     const upiUrl = `upi://pay?pa=${upiId}&pn=${payeeName}&am=${amount}&cu=INR`;
 
     // Use GoQR.me API to generate the QR code
